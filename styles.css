@@ -1,7 +1,56 @@
-:root {
-  --main_bg_color: #f5e9d0; 
-  --main_bg_color_accent: #e07a5f; 
-  --secondary_bg_color_accent: #688b8a;
-  --secondary_bg_color: #f2cc0c;
-  --button_color: #1d3557; 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/classroom_facing_right.webp");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+#blue_font {
+  color: rgb(23, 77, 159);
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(20, 91, 197);
+  color: white;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: red;
+}
+
+#form_btn {
+  background-color: rgb(14, 55, 116);
 }
