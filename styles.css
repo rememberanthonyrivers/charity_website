@@ -54,3 +54,17 @@ html {
 #form_btn {
   background-color: rgb(14, 55, 116);
 }
+
+@media (min-width: 878px) {
+  #mission_in_action_sec {
+    display: flex;
+    justify-content: center; /* Example: centers the items horizontally */
+    align-items: center; /* Example: centers the items vertically */
+    /* Add any additional flexbox properties as needed */
+  }
+
+  #mission_in_action_sec div {
+    /* You can also adjust the styling of the images within the flex container here */
+    margin: 0 10px; /* Example: adds horizontal space between images */
+  }
+}
