@@ -13,14 +13,13 @@ html {
   margin: 0;
   height: 100%;
   line-height: 1.8;
-  
 }
 
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("images/classroom_facing_right.webp");
+  background-image: url("images/DALL·E 2024-02-23 02.46.21 - A heartwarming scene of African American or Jamaican seniors, smiling warmly and looking in need of assistance. The setting is sunny and outdoors, per.webp");
   min-height: 100%;
 }
 
@@ -65,6 +64,37 @@ html {
   padding-top: 40px;
   padding-bottom: 50px;
 }
+
+/* promo section styling */
+.promo_sec {
+  margin: 0 auto;
+
+  background-color: rgb(14, 55, 116);
+  color: #fff;
+  /* border: 2px solid blue; */
+
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#promo_sec_cont_top {
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+  /* border: 2px solid red; */
+
+  line-height: 3em;
+}
+#promo_sec_cont_bottom {
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 3em;
+  text-align: center;
+  /* border: 2px solid */
+  line-height: 3em;
+}
+/* promo section styling end */
 
 @media (max-width: 517px) {
   #small-hero-content {
